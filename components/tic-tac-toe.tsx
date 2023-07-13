@@ -13,6 +13,7 @@ export const TicTacToe = () => {
 
   useEffect(() => {
     calculateWinner()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [board])
 
   const handleClick = (idx: number) => {
